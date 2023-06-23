@@ -1,0 +1,172 @@
+body {
+  height: 100%;
+  background-color: black;
+  margin: 0px;
+}
+
+/* THE LORD OF THE RINGS*/
+.movie-name {
+  display: flex;
+  font-family: 'PT Serif', serif;
+  color: rgb(240, 147, 43);
+}
+
+
+/*THE*/
+.the {
+  display: flex;
+  position: absolute;
+  padding-left: 492px;
+  margin-top: -315px;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+/*LORD*/
+.lord {
+  display: flex;
+  position: absolute;
+  margin-top: -337px;
+  padding-left: 456px;
+  text-decoration: solid;
+  font-size: xx-large;
+}
+
+/*L*/
+.lord h2:first-child {
+  position: absolute;
+  margin-top: 23px;
+  padding-left: 1px;
+  font-size: 90px;
+}
+
+/*ORD*/
+.lord h2:last-child {
+  font-size: 50px;
+  position: absolute;
+  padding-left: 32px;
+}
+
+
+/* OF THE */
+.of-the {
+  display: flex;
+  position: absolute;
+  padding-left: 593px;
+  margin-top: -280px;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  font-size: small;
+  font-weight: bold;
+  line-height: .1;
+}
+
+
+/*RINGS*/
+.rings {
+  display: flex;
+  position: absolute;
+  margin-top: -337px;
+  padding-left: 619px;
+  text-decoration: solid;
+  font-size: xx-large;
+}
+
+
+/* TARGETING RING */
+.rings h2:first-child {
+  position: absolute;
+  font-size: 50px;
+}
+
+/*TARGETTING S */
+.rings h2:last-child {
+  position: absolute;
+  margin-top: 25px;
+  padding-left: 120px;
+  font-size: 90px;
+}
+
+/*THE FELLOWSHIP OF THE RING*/
+.tfor {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  position: absolute;
+  padding-left: 508px;
+  margin-top: -258px;
+  font-size: 16.0px;
+  letter-spacing: 0.8px;
+}
+
+/*CREDITS*/
+.description {
+  display: flex;
+  position: absolute;
+  padding-left: 330px;
+  margin-top: -220px;
+  height: auto;
+  width: 100vh;
+  text-align: center;
+  justify-content: center;
+  line-height: .9;
+  justify-content: space-between;
+  font-size: x-small;
+  color: white;
+  filter: brightness(0.5);
+  font-family: 'Cairo', sans-serif;
+}
+
+/*LEAVING A BLANK IN BETWEEN DESCRIPTION FOR THE RELEASE DATE*/
+.leaving-spc {
+  color: transparent;
+}
+
+/*RELEASE DATE*/
+.release-date {
+  position: absolute;
+  font-size: 12px;
+  display: flex;
+  margin-top: -179px;
+  padding-left: 47%;
+  color: #f0f0f0;
+}
+
+/*LINK TO THE TRAILER*/
+.trailer-link {
+  position: absolute;
+  padding-left: 30%;
+  margin-top: -150px;
+}
+
+.trailer-link>a {
+  color: red;
+  text-decoration: none;
+}
+
+/*LINK TO THE ABOUT OF THE MOVIE*/
+.movie-link {
+  position: absolute;
+  text-decoration: underline;
+  padding-left: 65%;
+  margin-top: -150px;
+}
+
+.movie-link>a {
+  color: red;
+  text-decoration: none;
+}
+
+/*POSTER OF THE MOVIE*/
+.movie-poster {
+  background-size: cover;
+  position: relative;
+  top: -130px;
+  z-index: -1;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-position: center;
+}
